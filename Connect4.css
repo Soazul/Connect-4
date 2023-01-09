@@ -1,0 +1,79 @@
+h1 {
+    font-family: "Brush Script MT", "Arial", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 0.5em;
+}
+
+#winner {
+    font-family: "Brush Script MT", "Arial", sans-serif;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 30px;
+    background-color: white;
+    visibility: hidden;
+    margin: auto;
+}
+/* used to access board id */
+#board {
+    height: 420px;
+    width: 490px;
+    background-color: lightskyblue;
+    border: 10px  solid cornflowerblue;
+    margin: auto;
+    /* grow or shrink to fit the space available */
+    display: flex;
+    /* stacked */
+    flex-wrap: wrap;
+}
+
+/* used to access circle class */
+.circle {
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    margin: 5px;
+    border: 5px solid dodgerblue;
+}
+
+.redPiece {
+    background: #d96666;
+}
+
+.yellowPiece {
+    background: #ffeb79;
+}
+
+.button {
+    height: 35px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    top: 285px;
+    left: 640px;
+}
+.player {
+    font-family: "Brush Script MT", "Arial", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.timer {
+    font-family: "Brush Script MT", "Arial", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    height: 24px;
+    width: 60px;
+    border: 2px solid black;
+    visibility: hidden;
+}
+
+
